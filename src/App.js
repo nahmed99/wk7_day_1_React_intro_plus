@@ -5,7 +5,8 @@ function App() {
   return (
     <>
     <HippoBank title="Savings Hippo"
-               info="A good place for your money" />
+               info="A good place for your money" 
+               amount="15" />
     </>
   );
 }

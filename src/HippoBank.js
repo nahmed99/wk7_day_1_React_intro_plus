@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 
 // const HippoBank = (props) => {   - 'old' way
-const HippoBank = ({title, info}) => {
+const HippoBank = ({title, info, amount}) => {
 
     // total: is a variable (or const) name
     // setTotal: is a function to add behaviour for total
@@ -17,6 +17,12 @@ const HippoBank = ({title, info}) => {
         setTotal(total + 10);
     }
 
+    const withdraw = () => {
+        if (total >= amount) {
+            setTotal(total - amount);
+        }
+    }
+
     return (
 
         //<>
@@ -28,6 +34,7 @@ const HippoBank = ({title, info}) => {
             <p>{info}</p>
             <p>Total: £{total}</p>
             <button onClick={deposit}>Deposit</button>
+            <button onClick={withdraw}>Withdraw</button>
         </>
     )
 }
