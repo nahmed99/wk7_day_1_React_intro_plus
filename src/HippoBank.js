@@ -7,7 +7,7 @@ const HippoBank = ({title, info, amount}) => {
     // total: is a variable (or const) name
     // setTotal: is a function to add behaviour for total
     // useState(0): is a two-element array and also contains the default value for total
-    const [total, setTotal] = useState(0);
+    const [total, setTotal] = useState(0); // this re-renders the total upon changes made to it.
 
     // Needs to be in an anonymous function so that it isn't 
     // automatically called (without it being referenced). As
