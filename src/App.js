@@ -8,7 +8,7 @@ function App() {
                info="A good place for your money" />
 
     <HippoBank title="Savings Hippo 2"
-               info="A not a good place for your money" />
+               info="A not so very good place for your money" />
     </>
   );
 }
