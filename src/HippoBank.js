@@ -1,8 +1,10 @@
 import React from 'react';
 
-const HippoBank = () => {
+// const HippoBank = (props) => {   - 'old' way
+const HippoBank = ({title}) => {
     return (
-        <h1>I'm a Hippo Bank</h1>
+        // <h1>{props.title}</h1>   - 'old' way
+        <h1>{title}</h1>
     )
 }
 

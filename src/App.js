@@ -1,8 +1,9 @@
 import './App.css';
+import HippoBank from "./HippoBank";
 
 function App() {
   return (
-    <h1>Kidda?</h1>
+    <HippoBank title="Savings Hippo"/>
   );
 }
 
