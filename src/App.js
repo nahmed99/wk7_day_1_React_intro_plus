@@ -6,7 +6,7 @@ function App() {
     <>
     <HippoBank title="Savings Hippo"
                info="A good place for your money" 
-               amount="15" />
+               amount={15} />
     </>
   );
 }

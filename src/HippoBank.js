@@ -14,7 +14,7 @@ const HippoBank = ({title, info, amount}) => {
     // we are not passing any arguments to this function, we can
     // call it below without any brackets...
     const deposit = () => {
-        setTotal(total + 10);
+        setTotal(total + amount);
     }
 
     const withdraw = () => {
