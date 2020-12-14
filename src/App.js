@@ -3,7 +3,13 @@ import HippoBank from "./HippoBank";
 
 function App() {
   return (
-    <HippoBank title="Savings Hippo"/>
+    <>
+    <HippoBank title="Savings Hippo"
+               info="A good place for your money" />
+
+    <HippoBank title="Savings Hippo 2"
+               info="A not a good place for your money" />
+    </>
   );
 }
 
